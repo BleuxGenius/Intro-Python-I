@@ -12,6 +12,16 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
+x = 10
+y = 2.25
+z = " I like turtles"
+
+# print(str(x) + str(y ) + str( z))
+
+print("%s%s%s"  % (x,y,z))
+
 # Use the 'format' string method to print the same thing
+print("{}{}{}".format(x,y,z))
 
 # Finally, print the same thing using an f-string
+print(f"{x}{y}{z}")
